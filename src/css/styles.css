@@ -1,0 +1,64 @@
+html{box-sizing: border-box;}
+*,
+*::before,
+*::after 
+{
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body 
+{
+  color: rgba(2, 20, 9, 0.281);
+  background-color:rgb(201, 270, 201);
+  font-family: roboto,sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.search-form
+{    
+    margin-top: 30px; 
+    margin-bottom: 30px;   
+}
+
+.load-more
+{
+    margin-top: 30px;
+}
+
+
+.gallery
+{  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;  
+}
+
+.photo-card
+{
+  width: calc((100% - 120px)/4);
+}
+
+.photo-card:not(:last-child)
+{ margin-right: 30px;}
+
+ .img
+{
+  display: block;
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.is-hidden
+{
+  display: none;
+}
+
