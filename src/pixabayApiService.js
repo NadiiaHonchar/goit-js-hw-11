@@ -2,7 +2,7 @@ import axios from "axios";
 import Notiflix from 'notiflix';
 
 const API_KEY = '24626518-665b9f7b8dc290fe9a65ef06e';
-const per_page = 4;
+const per_page = 40;
 
 export default class PixabayApiService
 {
